@@ -65,8 +65,8 @@ By deploying a CNN model directly on the ESP32 microcontroller using **TinyML te
 
 The model converges rapidly within 5 epochs and maintains stable accuracy above 96% throughout training — demonstrating no overfitting.
 
-![Model Accuracy](<img width="584" height="558" alt="model_accuracy" src="https://github.com/user-attachments/assets/6a232fd2-47e4-4ffc-b0b8-90658b7d7518" />
-)
+![Model Accuracy] <img width="584" height="558" alt="model_accuracy" src="https://github.com/user-attachments/assets/6a232fd2-47e4-4ffc-b0b8-90658b7d7518" />
+
 
 ---
 
@@ -74,8 +74,8 @@ The model converges rapidly within 5 epochs and maintains stable accuracy above 
 
 Out of 829 test samples, the model correctly classified 814 images with only 15 misclassifications — 3 false positives and 12 false negatives.
 
-![Confusion Matrix](<img width="482" height="479" alt="confusion_matrix" src="https://github.com/user-attachments/assets/674008e1-91d5-47f2-b8be-72048ce456ec" />
-)
+![Confusion Matrix] <img width="482" height="479" alt="confusion_matrix" src="https://github.com/user-attachments/assets/674008e1-91d5-47f2-b8be-72048ce456ec" />
+
 
 | | Predicted: No Fire | Predicted: Fire |
 |---|---|---|
