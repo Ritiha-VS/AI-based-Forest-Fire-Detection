@@ -12,7 +12,7 @@ By deploying a CNN model directly on the ESP32 microcontroller using **TinyML te
 
 ---
 
-##Tech Stack
+## Tech Stack
 
 | Category | Tools / Technologies |
 |---|---|
@@ -25,7 +25,7 @@ By deploying a CNN model directly on the ESP32 microcontroller using **TinyML te
 
 ---
 
-## 🧠 How It Works
+## How It Works
 
 1. **Model Training** — A CNN model is trained on a labeled fire/no-fire image dataset using Python and TensorFlow.
 2. **Model Optimization** — The trained model is quantized using TensorFlow Lite to reduce size and latency, making it suitable for microcontroller deployment.
@@ -35,7 +35,7 @@ By deploying a CNN model directly on the ESP32 microcontroller using **TinyML te
 
 ---
 
-##Features
+## Features
 
 - ✅ Real-time fire detection at the edge (no internet needed)
 - ✅ Lightweight CNN — only **35,372 parameters**, **0.13 MB** model size
@@ -47,7 +47,7 @@ By deploying a CNN model directly on the ESP32 microcontroller using **TinyML te
 
 ---
 
-##Results
+## Results
 
 ### Model Performance
 
@@ -61,7 +61,7 @@ By deploying a CNN model directly on the ESP32 microcontroller using **TinyML te
 
 ---
 
-###Training & Validation Accuracy
+### Training & Validation Accuracy
 
 The model converges rapidly within 3 epochs and maintains stable accuracy above 96% throughout training — demonstrating no overfitting.
 
@@ -69,7 +69,7 @@ The model converges rapidly within 3 epochs and maintains stable accuracy above 
 
 ---
 
-### 🔲 Confusion Matrix
+### Confusion Matrix
 
 Out of 829 test samples, the model correctly classified 814 images with only 15 misclassifications — 3 false positives and 12 false negatives.
 
@@ -97,7 +97,7 @@ For non-fire forest scenes, the model correctly classifies the image as safe, wi
 ![No Fire](images/no_fire.png)
 
 
-##Future Improvements
+## Future Improvements
 
 - Integrate a camera module (OV2640) for live image capture on ESP32
 - Add GSM/LoRa module for remote alerts in areas without Wi-Fi
