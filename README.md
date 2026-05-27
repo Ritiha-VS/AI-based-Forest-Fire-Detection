@@ -1,10 +1,10 @@
-# 🔥 AI-Based Forest Fire Detection using TinyML & ESP32
+#AI-Based Forest Fire Detection using TinyML & ESP32
 
 A lightweight, real-time forest fire detection system built on ESP32 using a Convolutional Neural Network (CNN) optimized with TensorFlow Lite for edge deployment — achieving **98.07% test accuracy** with a model size of just **0.13 MB**.
 
 ---
 
-## 📌 Overview
+## Overview
 
 Forest fires cause devastating environmental and economic damage. This project addresses the need for a **low-cost, low-power, real-time fire detection system** that can operate in remote areas without internet connectivity.
 
@@ -12,7 +12,7 @@ By deploying a CNN model directly on the ESP32 microcontroller using **TinyML te
 
 ---
 
-## ⚙️ Tech Stack
+##Tech Stack
 
 | Category | Tools / Technologies |
 |---|---|
@@ -21,7 +21,7 @@ By deploying a CNN model directly on the ESP32 microcontroller using **TinyML te
 | Model Type | Convolutional Neural Network (CNN) |
 | Optimization | TFLite Post-Training Quantization |
 | Programming Language | C++, Python |
-| Development Tools | Arduino IDE / ESP-IDF, Visual Studio Code |
+| Development Tools |  ESP-IDF, Visual Studio Code |
 
 ---
 
@@ -35,7 +35,7 @@ By deploying a CNN model directly on the ESP32 microcontroller using **TinyML te
 
 ---
 
-## 🚀 Features
+##Features
 
 - ✅ Real-time fire detection at the edge (no internet needed)
 - ✅ Lightweight CNN — only **35,372 parameters**, **0.13 MB** model size
@@ -47,7 +47,7 @@ By deploying a CNN model directly on the ESP32 microcontroller using **TinyML te
 
 ---
 
-## 📊 Results
+##Results
 
 ### Model Performance
 
@@ -61,7 +61,7 @@ By deploying a CNN model directly on the ESP32 microcontroller using **TinyML te
 
 ---
 
-### 📈 Training & Validation Accuracy
+###Training & Validation Accuracy
 
 The model converges rapidly within 3 epochs and maintains stable accuracy above 96% throughout training — demonstrating no overfitting.
 
@@ -96,62 +96,8 @@ For non-fire forest scenes, the model correctly classifies the image as safe, wi
 
 ![No Fire](images/no_fire.png)
 
----
 
-## 📂 Project Structure
-
-```
-forest-fire-detection/
-├── images/
-│   ├── model_accuracy.png
-│   ├── confusion_matrix.png
-│   ├── fire_detected.png
-│   └── no_fire.png
-├── model/
-│   ├── train_model.py          # CNN training script
-│   ├── convert_to_tflite.py    # TFLite conversion & quantization
-│   └── fire_detection_model.tflite
-├── esp32/
-│   ├── main.cpp                # ESP32 inference code
-│   └── model_data.h            # Model embedded as C array
-├── dataset/
-│   └── (fire / no_fire images)
-├── requirements.txt
-└── README.md
-```
-
----
-
-## 🛠️ Setup & Usage
-
-### 1. Install Dependencies
-```bash
-pip install tensorflow numpy matplotlib opencv-python
-```
-
-Or using requirements.txt:
-```bash
-pip install -r requirements.txt
-```
-
-### 2. Train the Model
-```bash
-python model/train_model.py
-```
-
-### 3. Convert to TFLite
-```bash
-python model/convert_to_tflite.py
-```
-
-### 4. Flash to ESP32
-- Open `esp32/main.cpp` in Arduino IDE or ESP-IDF
-- Connect your ESP32 via USB
-- Upload the sketch
-
----
-
-## 🔮 Future Improvements
+##Future Improvements
 
 - Integrate a camera module (OV2640) for live image capture on ESP32
 - Add GSM/LoRa module for remote alerts in areas without Wi-Fi
