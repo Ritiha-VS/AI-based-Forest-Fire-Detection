@@ -65,7 +65,7 @@ By deploying a CNN model directly on the ESP32 microcontroller using **TinyML te
 
 The model converges rapidly within 5 epochs and maintains stable accuracy above 96% throughout training — demonstrating no overfitting.
 
-![Model Accuracy] <img width="584" height="558" alt="model_accuracy" src="https://github.com/user-attachments/assets/6a232fd2-47e4-4ffc-b0b8-90658b7d7518" />
+<img width="584" height="558" alt="model_accuracy" src="https://github.com/user-attachments/assets/6a232fd2-47e4-4ffc-b0b8-90658b7d7518" />
 
 
 ---
@@ -74,7 +74,7 @@ The model converges rapidly within 5 epochs and maintains stable accuracy above 
 
 Out of 829 test samples, the model correctly classified 814 images with only 15 misclassifications — 3 false positives and 12 false negatives.
 
-![Confusion Matrix] <img width="482" height="479" alt="confusion_matrix" src="https://github.com/user-attachments/assets/674008e1-91d5-47f2-b8be-72048ce456ec" />
+<img width="482" height="479" alt="confusion_matrix" src="https://github.com/user-attachments/assets/674008e1-91d5-47f2-b8be-72048ce456ec" />
 
 
 | | Predicted: No Fire | Predicted: Fire |
@@ -88,7 +88,7 @@ Out of 829 test samples, the model correctly classified 814 images with only 15 
 
 The model successfully detects fire regions, highlights them with bounding boxes, and generates a heatmap showing the intensity distribution.
 
-![Fire Detected] <img width="1366" height="255" alt="fire_detected" src="https://github.com/user-attachments/assets/4575675b-f078-4c67-bd6a-d39b655c18af" />
+<img width="1366" height="255" alt="fire_detected" src="https://github.com/user-attachments/assets/4575675b-f078-4c67-bd6a-d39b655c18af" />
 <img width="1366" height="279" alt="fire_detected1" src="https://github.com/user-attachments/assets/8d8156e8-6faa-45ba-a15b-22e93decc895" />
 
 
@@ -98,7 +98,7 @@ The model successfully detects fire regions, highlights them with bounding boxes
 
 For non-fire forest scenes, the model correctly classifies the image as safe, with no false fire regions triggered.
 
-![No Fire] <img width="1366" height="521" alt="no_fire" src="https://github.com/user-attachments/assets/d531eb5f-4b7f-484c-85c6-3e8b153743b9" />
+<img width="1366" height="521" alt="no_fire" src="https://github.com/user-attachments/assets/d531eb5f-4b7f-484c-85c6-3e8b153743b9" />
 <img width="1366" height="277" alt="no_fire1" src="https://github.com/user-attachments/assets/fa1b9e9f-39d9-49c3-9079-6950295ae9f7" />
 
 
@@ -113,11 +113,6 @@ For non-fire forest scenes, the model correctly classifies the image as safe, wi
 - Explore MobileNet-based architectures for further accuracy gains
 
 ---
-
-## 👤 Author
-
-**Ritiha V S**  
-B.E. ECE — Government College of Engineering, Bodinayakanur  
 
 
 
