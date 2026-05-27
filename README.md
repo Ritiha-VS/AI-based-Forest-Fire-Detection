@@ -1,4 +1,4 @@
-#AI-Based Forest Fire Detection using TinyML & ESP32
+# AI-Based Forest Fire Detection using TinyML & ESP32
 
 A lightweight, real-time forest fire detection system built on ESP32 using a Convolutional Neural Network (CNN) optimized with TensorFlow Lite for edge deployment — achieving **98.07% test accuracy** with a model size of just **0.13 MB**.
 
